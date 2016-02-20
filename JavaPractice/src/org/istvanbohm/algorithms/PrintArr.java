@@ -22,6 +22,8 @@ public class PrintArr {
 		System.out.println("");
 	}
 	
+
+	
 	public static int[] getArr(int size) {
 		Random rg = new Random();
 		int arr[] = new int[size];
