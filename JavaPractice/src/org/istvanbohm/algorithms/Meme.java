@@ -1,8 +1,11 @@
 package org.istvanbohm.algorithms;
 
-public class meme {
+/*
+ * Playing a little with the word MEME
+ */
+public class Meme {
 	public static void main(String[] args) {
-		String word="BUTA";
+		String word="MEME";
 		int size = word.length();
 		int direction = 1;
 		for(int line=0;line<size;++line){
