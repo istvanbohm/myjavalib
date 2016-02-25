@@ -16,8 +16,9 @@ public class CountOnes {
 	
 	
 	public static void main(String[] args) {
-		ones(20);
-		
+		int number = 20;
+		Helper.printNum(number);
+		ones(number);	
 	}
 
 }
