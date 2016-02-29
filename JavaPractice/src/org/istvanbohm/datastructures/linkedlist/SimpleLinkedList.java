@@ -1,8 +1,5 @@
 package org.istvanbohm.datastructures.linkedlist;
 
-
-
-
 public class SimpleLinkedList {
 	
 	class Node {

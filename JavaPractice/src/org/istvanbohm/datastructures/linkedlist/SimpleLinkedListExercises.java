@@ -22,7 +22,6 @@ public class SimpleLinkedListExercises {
 		}
 	}
 	
-	
 	public static void main(String[] args) throws Exception {
 		SimpleLinkedList list = new SimpleLinkedList();
 		list.appendToEnd(4);

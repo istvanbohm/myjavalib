@@ -5,6 +5,7 @@ import java.util.concurrent.ThreadLocalRandom;
 
 public class ListPractice {
 
+	// MyItem Start
 	class MyItem implements Comparable<MyItem> {
 		private String name;
 		private int size;
@@ -33,13 +34,14 @@ public class ListPractice {
 		public void setSize(int size) {
 			this.size = size;
 		}
-	}
+	} // MyItem End
 	
+	// MyItemSizeCompare Start
 	class MyItemSizeCompare implements Comparator<MyItem> {
 		public int compare(MyItem one,MyItem two) {
 			return Integer.compare(one.size,two.size);
 		}
-	}
+	} // MyItemSizeCompare End
 	
 	private LinkedList<MyItem> myList = new LinkedList<MyItem>();
 	
@@ -64,7 +66,7 @@ public class ListPractice {
 		return words[i];
 	}
 	
-	private void printList() {
+	public void printList() {
 		StringBuilder sb = new StringBuilder();
 		for(MyItem item : myList) {
 			sb.append("[n:" + item.name + " s:" + item.size + "] ");
