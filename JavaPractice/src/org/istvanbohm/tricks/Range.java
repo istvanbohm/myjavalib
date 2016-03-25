@@ -8,6 +8,6 @@ public class Range {
 		int from=Integer.MIN_VALUE;
 		int to=-from;
 		for(int i=from;i<to;) m[Math.abs(i++%3)]++;
-		for(int j=0;j<3;++j) System.out.print(m[j]);	
+		for(int j=0;j<3;++j) System.out.println(m[j]);	
 	}
 }
